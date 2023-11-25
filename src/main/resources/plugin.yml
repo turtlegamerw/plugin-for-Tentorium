@@ -1,0 +1,8 @@
+name: plug-in_tentorium
+version: '${project.version}'
+main: me.turtle.plugintentorium.Plug_in_tentoruim
+api-version: '1.20'
+load: STARTUP
+authors: [turtle]
+description: a plug-in for Tentorium server
+
