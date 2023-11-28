@@ -15,6 +15,9 @@ import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import static org.bukkit.Material.SAND;
+import static org.bukkit.Material.TNT;
+
 public class Plug_in_tentoruim extends JavaPlugin implements Listener {
 
     @Override
@@ -27,21 +30,19 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
     public void onPlayerMove(PlayerMoveEvent event) {
         Player player = event.getPlayer();
         // Get the block the player is standing on
-        int test = 1;
+        int test = 2;
         int blockX = player.getLocation().getBlockX();
         int blockY = player.getLocation().getBlockY();
         int blockZ = player.getLocation().getBlockZ();
         int betterY = blockY - test;
 
-        getLogger().info("Player is standing on block at coordinates: X=" + blockX + ", Y=" + blockY + ", Z=" + blockZ);
-
         World world = player.getWorld();
         int Location = blockX + betterY + blockZ;
         Block block = world.getBlockAt(blockX, betterY, blockZ);
+        if (block.getType() == TNT) {
+            System.out.println("yes");
 
-        Bukkit.getLogger().info("Block Type: " + block.getType());
-        Bukkit.getLogger().info("Block Data: " + block.getData());
-        Bukkit.getLogger().info("Block Location: " + block.getLocation());
+        }
     }
 }
 
