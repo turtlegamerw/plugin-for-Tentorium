@@ -43,7 +43,7 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
             // Schedule a task to set the TNT block to air after a delay (20 ticks = 1 second)
             Bukkit.getScheduler().runTaskLater(Plug_in_tentoruim.getPlugin(Plug_in_tentoruim.class), () -> {
                 block.setType(Material.AIR);
-            }, 20L);
+            }, 10L);
 
         }
     }
