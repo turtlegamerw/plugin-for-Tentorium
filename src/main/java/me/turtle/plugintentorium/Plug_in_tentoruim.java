@@ -40,7 +40,10 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
         int Location = blockX + betterY + blockZ;
         Block block = world.getBlockAt(blockX, betterY, blockZ);
         if (block.getType() == TNT) {
-            System.out.println("yes");
+            // Schedule a task to set the TNT block to air after a delay (20 ticks = 1 second)
+            Bukkit.getScheduler().runTaskLater(Plug_in_tentoruim.getPlugin(Plug_in_tentoruim.class), () -> {
+                block.setType(Material.AIR);
+            }, 20L);
 
         }
     }
