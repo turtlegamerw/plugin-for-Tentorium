@@ -33,6 +33,7 @@ public class hubcommand implements CommandExecutor {
         player.teleport(location);
         PotionEffect weaknessEffect = new PotionEffect(PotionEffectType.WEAKNESS, Integer.MAX_VALUE, 1, false, false);
         player.addPotionEffect(weaknessEffect);
+        player.getInventory().clear();
         player.sendMessage("Teleported to the hub.");
 
         return true;
