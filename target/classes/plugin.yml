@@ -1,5 +1,5 @@
 name: plug-in_tentorium
-version: '${project.version}'
+version: '1.0'
 main: me.turtle.plugintentorium.Plug_in_tentoruim
 api-version: '1.20'
 load: STARTUP

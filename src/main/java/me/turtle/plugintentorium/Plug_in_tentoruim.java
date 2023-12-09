@@ -1,5 +1,6 @@
 package me.turtle.plugintentorium;
 
+import me.turtle.plugintentorium.commands.hubcommand;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -22,8 +23,11 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        System.out.println("works");
+        System.out.println("tentorium plug-in has started");
+        getCommand("hub").setExecutor(new hubcommand());
+
         getServer().getPluginManager().registerEvents(this, this);
+
 
     }
     @EventHandler
