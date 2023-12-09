@@ -34,6 +34,8 @@ public class hubcommand implements CommandExecutor {
         PotionEffect weaknessEffect = new PotionEffect(PotionEffectType.WEAKNESS, Integer.MAX_VALUE, 1, false, false);
         player.addPotionEffect(weaknessEffect);
         player.getInventory().clear();
+        Location spawnLocation = new Location(player.getWorld(), 12, -8, 2);
+        player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to the hub.");
 
         return true;

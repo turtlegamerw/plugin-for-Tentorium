@@ -15,6 +15,8 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
 
 import static org.bukkit.Material.SAND;
 import static org.bukkit.Material.TNT;
@@ -39,7 +41,8 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
         int blockY = player.getLocation().getBlockY();
         int blockZ = player.getLocation().getBlockZ();
         int betterY = blockY - test;
-
+        PotionEffect weaknessEffect = new PotionEffect(PotionEffectType.WEAKNESS, Integer.MAX_VALUE, 1, false, false);
+        player.addPotionEffect(weaknessEffect);
         World world = player.getWorld();
         int Location = blockX + betterY + blockZ;
         Block block = world.getBlockAt(blockX, betterY, blockZ);
