@@ -26,9 +26,13 @@ public class hubcommand implements CommandExecutor {
         double x = 12.54;
         double y = -8.00;
         double z = 2.51;
+        float pitch = 0.0f;
+        float yaw = 90.0f;
+
+
 
         World world = player.getWorld();
-        Location location = new Location(world, x, y, z);
+        Location location = new Location(world, x, y, z, yaw, pitch);
 
         player.teleport(location);
         PotionEffect weaknessEffect = new PotionEffect(PotionEffectType.WEAKNESS, Integer.MAX_VALUE, 1, false, false);
