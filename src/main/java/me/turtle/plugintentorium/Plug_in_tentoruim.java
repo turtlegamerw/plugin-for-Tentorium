@@ -26,7 +26,7 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         System.out.println("tentorium plug-in has started");
-        
+
         //comands
         getCommand("hub").setExecutor(new hubcommand());
 

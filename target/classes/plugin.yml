@@ -1,0 +1,12 @@
+name: plug-in_tentorium
+version: '1.0'
+main: me.turtle.plugintentorium.Plug_in_tentoruim
+api-version: '1.20'
+load: STARTUP
+authors: [turtle]
+description: a plug-in for Tentorium server
+commands:
+  hub:
+    description: teleports you to the hub
+    usage: /<command>
+
