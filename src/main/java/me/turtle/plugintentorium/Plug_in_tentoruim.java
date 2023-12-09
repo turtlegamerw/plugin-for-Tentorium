@@ -26,8 +26,11 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         System.out.println("tentorium plug-in has started");
+        
+        //comands
         getCommand("hub").setExecutor(new hubcommand());
 
+        //events
         getServer().getPluginManager().registerEvents(this, this);
 
 
@@ -41,8 +44,6 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
         int blockY = player.getLocation().getBlockY();
         int blockZ = player.getLocation().getBlockZ();
         int betterY = blockY - test;
-        PotionEffect weaknessEffect = new PotionEffect(PotionEffectType.WEAKNESS, Integer.MAX_VALUE, 1, false, false);
-        player.addPotionEffect(weaknessEffect);
         World world = player.getWorld();
         int Location = blockX + betterY + blockZ;
         Block block = world.getBlockAt(blockX, betterY, blockZ);
