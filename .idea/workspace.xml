@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb4abff5-27e2-4bab-98c7-5733a888e9e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/parkourcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -17,7 +16,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/ffacommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/ffacommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/hubcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/hubcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/knockbackcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/knockbackcommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/parcourcommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/parkourcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/parkourcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/spleefcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/spleefcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/tntruncommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/tntruncommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />

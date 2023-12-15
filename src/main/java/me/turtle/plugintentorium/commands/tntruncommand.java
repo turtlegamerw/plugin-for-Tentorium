@@ -33,7 +33,7 @@ public class tntruncommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -416, -15, -19);
+        Location spawnLocation = new Location(player.getWorld(), -415, -15, -19);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to tntrun.");
 

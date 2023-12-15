@@ -32,7 +32,7 @@ public class ffacommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -248, -10, -491);
+        Location spawnLocation = new Location(player.getWorld(), -249, -10, -490);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to ffa.");
         return true;

@@ -32,7 +32,7 @@ public class knockbackcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -57, -10, -492);
+        Location spawnLocation = new Location(player.getWorld(), -58, -10, -492);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to knockback arena.");
 

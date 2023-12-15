@@ -9,6 +9,7 @@ commands:
   hub:
     description: teleports you to the hub
     usage: /<command>
+
   knockback:
     description: teleports you to the knockback arena
     usage: /<command>

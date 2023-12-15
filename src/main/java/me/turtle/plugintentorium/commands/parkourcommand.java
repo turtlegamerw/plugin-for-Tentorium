@@ -23,7 +23,7 @@ public class parkourcommand implements CommandExecutor {
         double y = -16.00;
         double z = -3.50;
         float pitch = 0.0f;
-        float yaw = -90.0f;
+        float yaw = 90.0f;
 
 
 
@@ -32,7 +32,7 @@ public class parkourcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -39, 16, -3);
+        Location spawnLocation = new Location(player.getWorld(), -39, -16, -3);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to parkour.");
         return true;

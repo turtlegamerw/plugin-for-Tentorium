@@ -32,7 +32,7 @@ public class spleefcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -327, 0, -118);
+        Location spawnLocation = new Location(player.getWorld(), -327, 0, -119);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to spleef.");
 
