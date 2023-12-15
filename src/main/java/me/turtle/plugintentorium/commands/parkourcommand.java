@@ -32,7 +32,7 @@ public class parkourcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -39, -16, -3);
+        Location spawnLocation = new Location(player.getWorld(), -40, -16, -4);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to parkour.");
         return true;
