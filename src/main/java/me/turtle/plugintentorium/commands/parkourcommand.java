@@ -7,10 +7,10 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class ffacommand implements CommandExecutor {
+public class parkourcommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] strings) {
-        // Check if the command sender is a player
+
         if (!(sender instanceof Player)) {
             sender.sendMessage("This command can only be executed by a player.");
             return true;
@@ -19,11 +19,11 @@ public class ffacommand implements CommandExecutor {
         Player player = (Player) sender;
 
         // Teleport the player to the hub coordinates
-        double x = -248.50;
-        double y = -10.00;
-        double z = -491.50;
+        double x = -39.50;
+        double y = -16.00;
+        double z = -3.50;
         float pitch = 0.0f;
-        float yaw = 00.0f;
+        float yaw = -90.0f;
 
 
 
@@ -32,9 +32,9 @@ public class ffacommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -248, -10, -491);
+        Location spawnLocation = new Location(player.getWorld(), -39, 16, -3);
         player.setBedSpawnLocation(spawnLocation, true);
-        player.sendMessage("Teleported to ffa.");
+        player.sendMessage("Teleported to parkour.");
         return true;
     }
 }

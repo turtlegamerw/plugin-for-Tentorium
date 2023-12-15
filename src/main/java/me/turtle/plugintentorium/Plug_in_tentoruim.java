@@ -1,9 +1,6 @@
 package me.turtle.plugintentorium;
 
-import me.turtle.plugintentorium.commands.hubcommand;
-import me.turtle.plugintentorium.commands.knockbackcommand;
-import me.turtle.plugintentorium.commands.spleefcommand;
-import me.turtle.plugintentorium.commands.tntruncommand;
+import me.turtle.plugintentorium.commands.*;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -35,6 +32,9 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
         getCommand("knockback").setExecutor(new knockbackcommand());
         getCommand("tntrun").setExecutor(new tntruncommand());
         getCommand("spleef").setExecutor(new spleefcommand());
+        getCommand("parkour").setExecutor(new parkourcommand());
+        getCommand("ffa").setExecutor(new ffacommand());
+
 
         //events
         getServer().getPluginManager().registerEvents(this, this);

@@ -20,3 +20,11 @@ commands:
   spleef:
     description: teleports you to spleef
     usage: /<command>
+
+  parkour:
+    description: teleports you to parkour
+    usage: /<command>
+
+  ffa:
+    description: teleports you to ffa
+    usage: /<command>
