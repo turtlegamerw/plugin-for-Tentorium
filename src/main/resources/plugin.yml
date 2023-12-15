@@ -13,3 +13,6 @@ commands:
     description: teleports you to the knockback arena
     usage: /<command>
 
+  tntrun:
+    description: teleports you to tntrun
+    usage: /<command>
