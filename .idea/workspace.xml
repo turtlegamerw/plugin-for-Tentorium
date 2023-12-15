@@ -20,14 +20,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/spleefcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/spleefcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/tntruncommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/tntruncommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/turtle/plugintentorium/Plug_in_tentoruim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/turtle/plugintentorium/commands/hubcommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-plugintentorium-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugintentorium-1.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
