@@ -1,6 +1,7 @@
 package me.turtle.plugintentorium;
 
 import me.turtle.plugintentorium.commands.hubcommand;
+import me.turtle.plugintentorium.commands.knockbackcommand;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -29,6 +30,7 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
 
         //comands
         getCommand("hub").setExecutor(new hubcommand());
+        getCommand("knockback").setExecutor(new knockbackcommand());
 
         //events
         getServer().getPluginManager().registerEvents(this, this);
