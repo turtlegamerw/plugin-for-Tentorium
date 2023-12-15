@@ -15,6 +15,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/Plug_in_tentoruim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/Plug_in_tentoruim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/hubcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/turtle/plugintentorium/commands/hubcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
