@@ -16,3 +16,7 @@ commands:
   tntrun:
     description: teleports you to tntrun
     usage: /<command>
+
+  spleef:
+    description: teleports you to spleef
+    usage: /<command>
