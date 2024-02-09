@@ -25,7 +25,7 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        System.out.println("tentorium plug-in has started");
+
 
         //comands
         getCommand("hub").setExecutor(new hubcommand());
@@ -41,6 +41,8 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
 
 
     }
+
+    //if it works don't change it!
     @EventHandler
     public void onPlayerMove(PlayerMoveEvent event) {
         Player player = event.getPlayer();
