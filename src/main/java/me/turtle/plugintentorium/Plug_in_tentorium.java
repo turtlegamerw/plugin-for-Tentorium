@@ -21,7 +21,7 @@ import org.bukkit.potion.PotionEffectType;
 import static org.bukkit.Material.SAND;
 import static org.bukkit.Material.TNT;
 
-public class Plug_in_tentoruim extends JavaPlugin implements Listener {
+public class Plug_in_tentorium extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
@@ -56,8 +56,7 @@ public class Plug_in_tentoruim extends JavaPlugin implements Listener {
         int Location = blockX + betterY + blockZ;
         Block block = world.getBlockAt(blockX, betterY, blockZ);
         if (block.getType() == TNT) {
-            // Schedule a task to set the TNT block to air after a delay (20 ticks = 1 second)
-            Bukkit.getScheduler().runTaskLater(Plug_in_tentoruim.getPlugin(Plug_in_tentoruim.class), () -> {
+            Bukkit.getScheduler().runTaskLater(Plug_in_tentorium.getPlugin(Plug_in_tentorium.class), () -> {
                 block.setType(Material.AIR);
             }, 10L);
 

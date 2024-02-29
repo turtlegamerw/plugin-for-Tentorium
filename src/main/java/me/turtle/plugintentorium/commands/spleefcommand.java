@@ -20,7 +20,7 @@ public class spleefcommand implements CommandExecutor {
 
         // Teleport the player to the hub coordinates
         double x = -327.00;
-        double y = 0.00;
+        double y = 64.00;
         double z = -118.50;
         float pitch = 0.0f;
         float yaw = -90.0f;
@@ -32,7 +32,7 @@ public class spleefcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -327, 0, -119);
+        Location spawnLocation = new Location(player.getWorld(), -327, 64, -119);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to spleef.");
 

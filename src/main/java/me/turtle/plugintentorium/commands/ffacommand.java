@@ -20,7 +20,7 @@ public class ffacommand implements CommandExecutor {
 
         // Teleport the player to the hub coordinates
         double x = -248.50;
-        double y = -10.00;
+        double y = 54.00;
         double z = -491.50;
         float pitch = 0.0f;
         float yaw = 00.0f;
@@ -32,7 +32,7 @@ public class ffacommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -249, -10, -490);
+        Location spawnLocation = new Location(player.getWorld(), -249, 54, -490);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to ffa.");
         return true;
