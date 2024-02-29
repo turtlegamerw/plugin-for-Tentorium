@@ -20,7 +20,7 @@ public class hubcommand implements CommandExecutor {
 
         // Teleport the player to the hub coordinates
         double x = 12.54;
-        double y = -8.00;
+        double y = 56.00;
         double z = 2.51;
         float pitch = 0.0f;
         float yaw = 90.0f;
@@ -32,7 +32,7 @@ public class hubcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), 12, -8, 2);
+        Location spawnLocation = new Location(player.getWorld(), 12, 56, 2);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to the hub.");
 

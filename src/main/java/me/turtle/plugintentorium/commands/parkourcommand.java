@@ -20,7 +20,7 @@ public class parkourcommand implements CommandExecutor {
 
         // Teleport the player to the hub coordinates
         double x = -39.50;
-        double y = -16.00;
+        double y = 48.00;
         double z = -3.50;
         float pitch = 0.0f;
         float yaw = 90.0f;
@@ -32,7 +32,7 @@ public class parkourcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -40, -16, -4);
+        Location spawnLocation = new Location(player.getWorld(), -40, -48, -4);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to parkour.");
         return true;

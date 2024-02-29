@@ -21,7 +21,7 @@ public class tntruncommand implements CommandExecutor {
 
         // Teleport the player to the hub coordinates
         double x = -416.50;
-        double y = -15.00;
+        double y = 49.00;
         double z = -19.50;
         float pitch = 0.0f;
         float yaw = 90.0f;
@@ -33,7 +33,7 @@ public class tntruncommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -415, -15, -20);
+        Location spawnLocation = new Location(player.getWorld(), -415, 49, -20);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to tntrun.");
 

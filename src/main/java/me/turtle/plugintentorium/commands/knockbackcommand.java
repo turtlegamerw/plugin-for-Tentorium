@@ -20,7 +20,7 @@ public class knockbackcommand implements CommandExecutor {
 
         // Teleport the player to the hub coordinates
         double x = -57.50;
-        double y = -10.00;
+        double y = 54.00;
         double z = -492.50;
         float pitch = 0.0f;
         float yaw = 00.0f;
@@ -32,7 +32,7 @@ public class knockbackcommand implements CommandExecutor {
 
         player.teleport(location);
         player.getInventory().clear();
-        Location spawnLocation = new Location(player.getWorld(), -58, -10, -492);
+        Location spawnLocation = new Location(player.getWorld(), -58, -54, -492);
         player.setBedSpawnLocation(spawnLocation, true);
         player.sendMessage("Teleported to knockback arena.");
 
