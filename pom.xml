@@ -6,7 +6,7 @@
 
     <groupId>me.turtle</groupId>
     <artifactId>plugintentorium</artifactId>
-    <version>1.0</version>
+    <version>5.0</version>
     <packaging>jar</packaging>
 
     <name>plug-in_tentorium</name>
