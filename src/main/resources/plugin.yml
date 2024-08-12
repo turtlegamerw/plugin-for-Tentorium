@@ -29,3 +29,6 @@ commands:
   ffa:
     description: teleports you to ffa
     usage: /<command>
+  gui:
+    description: makes an gui appear
+    usage: /<command>
