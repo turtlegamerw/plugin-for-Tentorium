@@ -13,8 +13,10 @@ public class MenuListener implements Listener {
     public void onInventoryClick(InventoryClickEvent e) {
         //check for inventory (test menu)
         if (e.getView().getTitle().equals(ChatColor.AQUA + "Tentorium test gui")) {
+            e.setCancelled(true);
             //only if not right clicked
-            if (e.isRightClick()) return;
+            if (!e.getClick().isLeftClick()) return;
+
             Player player = (Player) e.getWhoClicked();
             //if player left clicks barrier in Tentorium test gui give 1 barrier
             switch (e.getCurrentItem().getType()) {

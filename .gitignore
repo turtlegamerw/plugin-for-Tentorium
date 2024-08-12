@@ -5,6 +5,7 @@
 .idea
 .idea/**
 .idea\workspace.xml
+# dont ask why but it doesnt work but somehow it blocks someething else? which in this case is good!
 
 # Ignore Gradle GUI config
 gradle-app.setting
