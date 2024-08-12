@@ -4,7 +4,7 @@
 !src/**/build/
 .idea
 .idea/**
-plugin-for-Tentorium\.idea\workspace.xml
+.idea\workspace.xml
 
 # Ignore Gradle GUI config
 gradle-app.setting
