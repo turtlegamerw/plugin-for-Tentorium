@@ -27,7 +27,7 @@ The ducktape for a server called Tentorium
 ## Roadmap
 
 - add an working gui for minigames
-
+- fix tntrun
 - add an queuing system
 
 
