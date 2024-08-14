@@ -2,6 +2,7 @@
 # An plugin for the Tentorium server
 
 The ducktape for a server called Tentorium
+![screenshot](https://i.ibb.co/DpSw25C/9f5cf31fbc27bda321380551054e5e54.webp
 
 
 ## Authors
