@@ -18,7 +18,7 @@ public class parkourcommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        // Teleport the player to the hub coordinates
+        
         double x = -39.50;
         double y = 48.00;
         double z = -3.50;

@@ -18,7 +18,7 @@ public class knockbackcommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        // Teleport the player to the hub coordinates
+        
         double x = -57.50;
         double y = 54.00;
         double z = -492.50;

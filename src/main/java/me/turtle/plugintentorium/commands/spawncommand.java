@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.Location;
 import org.bukkit.World;
-public class hubcommand implements CommandExecutor {
+public class spawncommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
@@ -18,7 +18,7 @@ public class hubcommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        // Teleport the player to the hub coordinates
+        // Teleport the player to the spawn coordinates
         double x = 12.54;
         double y = 56.00;
         double z = 2.51;
@@ -34,7 +34,7 @@ public class hubcommand implements CommandExecutor {
         player.getInventory().clear();
         Location spawnLocation = new Location(player.getWorld(), 12, 56, 2);
         player.setBedSpawnLocation(spawnLocation, true);
-        player.sendMessage("Teleported to the hub.");
+        player.sendMessage("Teleported to spawn.");
 
         return true;
     }

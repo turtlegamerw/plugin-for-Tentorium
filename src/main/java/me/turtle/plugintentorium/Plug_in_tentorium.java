@@ -11,7 +11,7 @@ public class Plug_in_tentorium extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         //comands
-        getCommand("hub").setExecutor(new hubcommand());
+        getCommand("spawn").setExecutor(new spawncommand());
         getCommand("knockback").setExecutor(new knockbackcommand());
         getCommand("tntrun").setExecutor(new tntruncommand());
         getCommand("spleef").setExecutor(new spleefcommand());

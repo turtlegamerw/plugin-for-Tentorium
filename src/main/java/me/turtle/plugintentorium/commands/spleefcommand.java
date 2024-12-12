@@ -18,7 +18,7 @@ public class spleefcommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        // Teleport the player to the hub coordinates
+        
         double x = -327.00;
         double y = 64.00;
         double z = -118.50;

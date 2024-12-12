@@ -19,7 +19,7 @@ public class tntruncommand implements CommandExecutor {
 
         Player player = (Player) sender;
 
-        // Teleport the player to the hub coordinates
+        
         double x = -416.50;
         double y = 49.00;
         double z = -19.50;
