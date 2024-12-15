@@ -1,5 +1,6 @@
 package me.turtle.plugintentorium;
 
+import me.turtle.plugintentorium.Listeners.BarrierKillListener;
 import me.turtle.plugintentorium.Listeners.JoinLeaveListener;
 import me.turtle.plugintentorium.Listeners.TnTRunListener;
 import me.turtle.plugintentorium.commands.*;
@@ -22,6 +23,7 @@ public class Plug_in_tentorium extends JavaPlugin implements Listener {
         //tntrun thing idk
         getServer().getPluginManager().registerEvents(new TnTRunListener(), this);
         getServer().getPluginManager().registerEvents(new JoinLeaveListener(), this);
+        getServer().getPluginManager().registerEvents(new BarrierKillListener(), this);
 
     }
 }
