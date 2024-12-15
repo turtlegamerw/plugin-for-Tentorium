@@ -1,5 +1,5 @@
 name: plug-in_tentorium
-version: '6.1'
+version: '6.2'
 main: me.turtle.plugintentorium.Plug_in_tentorium
 api-version: '1.20'
 load: STARTUP
