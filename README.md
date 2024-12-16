@@ -17,9 +17,6 @@ The ducktape for a server called Tentorium
 
 - Tbh i have no clue
 
-#### Why did you make this?
-
-- To learn stuff 
 
 
 
